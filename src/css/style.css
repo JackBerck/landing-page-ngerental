@@ -182,4 +182,40 @@ footer {
     font-size: 0.8rem;
     width: 120px;
   }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  nav ul li a {
+    font-size: 0.7rem;
+  }
+
+  .login-sign-up a {
+    font-size: 0.7rem;
+  }
+
+  .login-sign-up {
+    flex-wrap: wrap;
+  }
+
+  article h2 {
+    font-size: 1rem;
+  }
+
+  article p {
+    font-size: 0.7rem;
+  }
+
+  article .submit {
+    font-size: 0.7rem;
+    width: 100px;
+    padding: 3px 7px;
+  }
+
+  aside img {
+    width: 100%;
+  }
 }
